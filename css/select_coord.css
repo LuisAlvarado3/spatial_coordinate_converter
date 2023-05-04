@@ -1,0 +1,53 @@
+.form.select-coord{
+    background-color: rgba(0, 105, 92, 1); 
+    padding: 50px;
+    border : 50px;
+    margin : 50px;
+    width  : 200px;
+    height : 200px;
+    border-radius: 100%;
+    display      : block;
+    float        : left;
+    
+}
+
+.selector{
+    color    : rgba(213, 216, 220 ,1);
+    font-size: 20px;
+    display  : inline-block;
+    justify-items: center;
+    /* background-color: rgba( 244, 244, 0, 0.5 ); */
+}
+
+.selector label{
+    margin : 10px;
+    border : 10px;
+    padding: 0 20px 0 20px;
+    display: block;
+}
+
+.selector select{
+    padding: 5px 0 5px 5px;
+    border : 0;
+    margin : 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 180px;
+    background-color:  rgb(23, 32, 42,1);
+    color: rgba(213, 216, 220 ,1) ;
+    display: block;
+
+}
+
+.get-coord{
+    color: aliceblue;
+    display: table;
+}
+
+.lbl-input{
+    display: flex;
+}
+
+.lbl-out{
+    display: flexbox;
+}
