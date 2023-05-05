@@ -35,10 +35,10 @@ function getAngle( opposite=0, adjacent=0 ){
     }else{
         angle = radiansToAngle( Math.atan( opposite/adjacent ) );
         if(opposite < 0 ){
-            if( adjacent < 0 ){ angle = 180 + angle;}
-            else{ angle = 360-angle; }
+            if( adjacent < 0 ){ angle = 270 - angle;}
+            else{ angle = 360+angle; }
         }else{
-            if( adjacent < 0 ){ angle = 180 - angle;}
+            if( adjacent < 0 ){ angle = 180 + angle;}
             else{ angle = angle; }
         }
     }
